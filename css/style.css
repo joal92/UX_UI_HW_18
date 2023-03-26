@@ -192,3 +192,15 @@ section button {
     font-weight: 300;
     font-size: 20px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .workGrid {
+        flex-direction: column;
+        max-width: 100%;
+        grid-template-areas: "img1 content1"
+        "img2 content2";
+        grid-template-columns: 50%;
+        grid-template-rows: 350px 350px;
+
+      }
+  }
